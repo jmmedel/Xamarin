@@ -23,8 +23,10 @@ namespace T_002_ListView
             mitems.Add("John");
             mitems.Add("Medel");
             mitems.Add("Kagaya");
-
-            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mitems);
+            // the default listview
+            //ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mitems);
+            // call created mylistView class to make use your listview
+            MyListview adapter = new MyListview(this, mitems);
             mlistviews.Adapter = adapter;
 
         }
