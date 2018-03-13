@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("T_005_List_Control_And_The_Browser.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("T_006_Audio_Files.Resource", IsApplication=true)]
 
-namespace T_005_List_Control_And_The_Browser
+namespace T_006_Audio_Files
 {
 	
 	
@@ -37,22 +37,6 @@ namespace T_005_List_Control_And_The_Browser
 			}
 			
 			private Attribute()
-			{
-			}
-		}
-		
-		public partial class Id
-		{
-			
-			// aapt resource value: 0x7f040000
-			public const int listView1 = 2130968576;
-			
-			static Id()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Id()
 			{
 			}
 		}
